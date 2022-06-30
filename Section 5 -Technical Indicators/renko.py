@@ -1,10 +1,3 @@
-# =============================================================================
-# Import OHLCV data and transform it to Renko
-# Author : Mayank Rasu (http://rasuquant.com/wp/)
-
-# Please report bug/issues in the Q&A section
-# =============================================================================
-
 # Import necesary libraries
 import yfinance as yf
 from stocktrends import Renko

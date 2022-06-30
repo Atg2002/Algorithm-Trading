@@ -1,11 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon May 30 14:39:42 2022
-
-@author: Krithikavvgreat
-"""
-
-import yfinance as yf
+#import yfinance as yf
 import numpy as np
 import datetime as dt
 tickers = ["AMZN","GOOG","MSFT"]

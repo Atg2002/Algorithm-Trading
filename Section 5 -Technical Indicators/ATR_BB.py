@@ -1,20 +1,16 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat May  7 11:19:50 2022
-
-@author: Krithikavvgreat
-"""
-
 import yfinance as yf
 
 stocks = ["MSFT","AAPL","GOOG"]
 ohlcv = {}
 
+#Get data on the stocks
 for stock in stocks:
     temp = yf.download(stock, period = "1mo", interval = "5m")
     temp.dropna(how= "any", inplace=True)
     ohlcv[stock] = temp
-    
+   
+#Average True Range(ATR) is calculated by taking the mean of True Range over a certain period.
+#It gives a good estimate of stocks expected price movement.
 def ATR(DF, n=14):
     df = DF.copy()
     df["comp1"] = df["High"] - df["Low"]

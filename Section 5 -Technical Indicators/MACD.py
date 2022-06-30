@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri May  6 16:50:19 2022
-
-@author: Krithikavvgreat
-"""
-
 import yfinance as yf
 import pandas as pd
 
