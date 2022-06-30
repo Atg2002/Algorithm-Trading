@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Mar 24 20:40:50 2022
-
-@author: Krithikavvgreat
-"""
-
 import yfinance as yf
 
 stocks = ["RELIANCE.NS", "INFY.NS", "SBICARD.NS", "HDFCBANK.NS", "ITC.NS"]
